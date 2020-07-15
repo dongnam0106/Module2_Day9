@@ -80,6 +80,7 @@ public class NextDayCalculatorTest {
         int resultYear = nextDay.checkYear();
         assertEquals(year, resultYear);
     }
+
     @Test
     public void testNextDay6() {
         int day = 31;
